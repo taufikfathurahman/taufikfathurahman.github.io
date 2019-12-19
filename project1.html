@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Ethereal by HTML5 UP</title>
+		<title>Brain Tumor Detection</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets_project1/css/main.css" />
@@ -18,9 +18,12 @@
 						<!-- Panel (Banner) -->
 							<section class="panel banner right">
 								<div class="content color0 span-3-75">
-									<h1 class="major">Hello, my name<br />
-									is Ethereal</h1>
-									<p>This is <strong>Ethereal</strong>, a free site template by AJ for <a href="https://html5up.net">HTML5 UP</a>. It’s fully responsive, built on HTML5 and CSS3, and released entirely for free under the Creative Commons license. Hope you dig it :)</p>
+									<h1 class="major">Deteksi<br />
+									Tumor Otak</h1>
+									<p>
+										Pada penelitian ini akan dilakukan <strong>klasifikasi</strong> terhadap citra MRI dengan menggunakan metode yang ada di lingkup <i>image processing</i> dan <i>deep learning</i><br/> 
+										Oleh : {Taufik Fathurahman & Haddad Alwi Yafie}
+									</p>
 									<ul class="actions">
 										<li><a href="#first" class="button primary color1 circle icon solid fa-angle-right">Next</a></li>
 									</ul>
@@ -33,11 +36,49 @@
 						<!-- Panel (Spotlight) -->
 							<section class="panel spotlight medium right" id="first">
 								<div class="content span-7">
-									<h2 class="major">Sed etiam aenean</h2>
-									<p>Mauris et ligula arcu. Proin dapibus convallis accumsan. Lorem maximus hendrerit orci, sit amet elementum massa hendrerit sed. Donec et ullamcorper ligula. Suspendisse amet potenti. Ut pretium libero eleifend euismod sed tristique. Quisque dictum magna risus, id ultricies justo sagittis vitae. Sed id odio tempor, porttitor elit amet, gravida hendrerit fringilla lorem ipsum dolor.</p>
+									<h2 class="major">Tumor Otak</h2>
+									<p>Tumor didefinisikan sebagai pertumbuhan jaringan abnormal. Tumor otak adalah massa jaringan abnormal tempat sel tumbuh dan berkembang biak tak terkendali. Tumor otak merupakan penyakit berbahaya kedua yang menyebabkan kematian bagi pria di usia 20-30 tahun dan merupakan penyakit berbahaya yang menyebabkan kematian bagi wanita berusia 20-30 tahun. Salah satu metode umum yang digunakan untuk mendeteksi tumor otak adalah magnetic resonance imaging (MRI).</p>
 								</div>
 								<div class="image filtered tinted" data-position="top left">
-									<img src="images_project1/pic02.jpg" alt="" />
+									<img src="images_project1/pic02.png" alt="" />
+								</div>
+							</section>
+										
+						<!-- Panel (Spotlight) -->
+							<section class="panel spotlight large left">
+								<div class="content span-5">
+									<h2 class="major">Solusi yang diusulkan</h2>
+									<p>
+										Deteksi tumor otak otomatis diusulkan dengan menggunakan metode convolutional <i>neural network (CNN)</i>. Arsitektur CNN terdiri dari tumpukan layer-layer seperti <i>convolution layer, pooling layer,</i> dan <i>fully connected layer</i>. Sebelum melakukan klasifikasi, terlebih dahulu melakukan tahap <i>preprocessing</i>. Tahap <i>preprocessing</i> dilakukan meningkatkan kualitas citra serta menghilangkan <i><strong>noise</strong></i> yang ada pada citra MRI.</p>
+								</div>
+								<div class="image filtered tinted" data-position="top right">
+									<img src="images_project1/pic03.png" alt="" />
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel color4-alt">
+								<div class="intro color4">
+									<h2 class="major">Perancangan Sistem</h2>
+									<p>Tahap perancangan sistem akan terdiri dari 3 bagian utama, yaitu membaca citra MRI, <i>pre-processing</i> citra MRI, dan yang terakhir adalah melakukan klasifikasi dari gamabr yang telah di <i>pre-process</i> sebelumnya.</p>
+								</div>
+								<div class="inner columns divided">
+									<img src="images_project1/fd.png" class="img-responsive" alt="about img">
+									<p>
+										<i>Pre-processing</i> akan dilakukan dengan menerapkan <br/>
+										beberapa metode yang ada di lingkup <i>image processing</i>, <br/>
+										yang tujuannya untuk mendapatkan citra yang baik untuk <br/>
+										di klasifikasi di tahapan selanjutnya. <br/>
+										<br/>
+										Dalam melakukan klasifikasi, akan digunakan metode <br/>
+										<i>Convolutional Neural Network (CNN)</i>. Yang nantinya <br/>
+										akan menggunakan 3 buah arsitektur CNN, yaitu <i>MobileNet,<br/>
+										VGG16,</i> dan <i>Resnet50</i> sebagai perbandingan.<br/>
+										<br/>
+										Tahapan terakhir adalah melakukan evaluasi terhadap <br/>
+										sistem yang diabangun, dimana akan digunakan <i>confusion <br/>
+										matrix</i> untuk mengukurnya.
+									</p>
 								</div>
 							</section>
 
@@ -56,17 +97,6 @@
 										<li><span class="icon solid fa-chart-bar"><span class="label">Amet</span></span></li>
 										<li><span class="icon solid fa-code"><span class="label">Nullam</span></span></li>
 									</ul>
-								</div>
-							</section>
-
-						<!-- Panel (Spotlight) -->
-							<section class="panel spotlight large left">
-								<div class="content span-5">
-									<h2 class="major">Magna amet tempus</h2>
-									<p>Mauris a cursus velit. Nunc lacinia sollicitudin egestas bibendum, magna dui bibendum ex, sagittis commodo enim risus sed magna nulla. Vestibulum ut consequat velit. Curabitur vitae libero lorem. Quisque iaculis porttitor blandit. Nullam quis sagittis maximus. Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar.</p>
-								</div>
-								<div class="image filtered tinted" data-position="top right">
-									<img src="images_project1/pic03.jpg" alt="" />
 								</div>
 							</section>
 
