@@ -83,20 +83,104 @@
 							</section>
 
 						<!-- Panel -->
-							<section class="panel color1">
-								<div class="intro joined">
-									<h2 class="major">Amet lorem</h2>
-									<p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
+							<section class="panel color2-alt">
+								<div class="intro color2">
+									<h2 class="major">Preprocess - </br>RGB to Grayscale</h2>
+									<p>Citra MRI akan diubah kedalam <i>grayscale</i> dengan dua cara, yang pertama yaitu dengan mengalikan setiap channel warna dengan koefisien yang sudah ditentukan, dan cara kedua adalah dengan merata-ratakan nilainya.</p>
 								</div>
-								<div class="inner">
-									<ul class="grid-icons three connected">
-										<li><span class="icon fa-gem"><span class="label">Lorem</span></span></li>
-										<li><span class="icon solid fa-camera-retro"><span class="label">Ipsum</span></span></li>
-										<li><span class="icon solid fa-cog"><span class="label">Dolor</span></span></li>
-										<li><span class="icon solid fa-paper-plane"><span class="label">Sit</span></span></li>
-										<li><span class="icon solid fa-chart-bar"><span class="label">Amet</span></span></li>
-										<li><span class="icon solid fa-code"><span class="label">Nullam</span></span></li>
-									</ul>
+								<div class="inner columns divided">
+									<div>
+										<h4>Code Result:</h4>
+										<img src="images_project1\code_result\Y108.png" class="img-responsive" alt="about img">
+									</div>
+									<div class="gallery">
+										<a href="images_project1\code\code_rgb_to_grayscale.png" class="image filtered span-2" data-position="bottom"><img src="images_project1\code\click_me.png" alt="" /></a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel color3-alt">
+								<div class="intro color3">
+									<h2 class="major">Preprocess - </br>Convolution</h2>
+									<p>Akan dilakukan konvolusi dengan kernel yang telah dibuat, salah satunya adalah <i>gaussian blur</i>. Ini bertujuan untuk menghilangkan noise pada citra</p>
+								</div>
+								<div class="inner columns divided">
+									<div>
+										<h4>Code Result:</h4>
+										<img src="images_project1\code_result\result_conv.png" class="img-responsive" alt="about img">
+									</div>
+									<div class="gallery">
+										<a href="images_project1\code\code_convolution.png" class="image filtered span-2" data-position="bottom"><img src="images_project1\code\click_me.png" alt="" /></a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel color4-alt">
+								<div class="intro color4">
+									<h2 class="major">Preprocess - </br>Thresholding</h2>
+									<p>Citra MRI akn diubah kedalam citra <i>binary</i>, dimana jika nilai dibawah <i>Threshold</i> akan bernilai <b>0</b>, dan jika sebaliknya maka <b>1</b></p>
+								</div>
+								<div class="inner columns divided">
+									<div>
+										<h4>Code Result:</h4>
+										<img src="images_project1\code_result\result_th.png" class="img-responsive" alt="about img">
+									</div>
+									<div class="gallery">
+										<a href="images_project1\code\code_thresholding.png" class="image filtered span-2" data-position="bottom"><img src="images_project1\code\click_me.png" alt="" /></a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel color2-alt">
+								<div class="intro color2">
+									<h2 class="major">Preprocess - </br>Erosion</h2>
+									<p>Pada tahap ini dilakukan pengecilan/penipisan gambar pada citra MRI</p>
+								</div>
+								<div class="inner columns divided">
+									<div>
+										<h4>Code Result:</h4>
+										<img src="images_project1\code_result\result_er.png" class="img-responsive" alt="about img">
+									</div>
+									<div class="gallery">
+										<a href="images_project1\code\code_erosion.png" class="image filtered span-2" data-position="bottom"><img src="images_project1\code\click_me.png" alt="" /></a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel color4-alt">
+								<div class="intro color4">
+									<h2 class="major">Preprocess - </br>Dilation</h2>
+									<p>Pada tahap ini dilakukan pembesaran/penebalan gambar pada citra MRI</p>
+								</div>
+								<div class="inner columns divided">
+									<div>
+										<h4>Code Result:</h4>
+										<img src="images_project1\code_result\result_di.png" class="img-responsive" alt="about img">
+									</div>
+									<div class="gallery">
+										<a href="images_project1\code\code_dilation.png" class="image filtered span-2" data-position="bottom"><img src="images_project1\code\click_me.png" alt="" /></a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel color5-alt">
+								<div class="intro color5">
+									<h2 class="major">Preprocess - </br>Find Extreme Points & Cropping</h2>
+									<p style="color:brown">Pada tahapan ini akan dicari kontur dari citra, lalu akan dipilih kontur dengan nilai yang paling besar. Dari nilai kontur terbesar ini akan dapat ditentukan <i>extreme points</i>-nya. Lalu dari <i>extreme points</i> yang telah didapat, akan dilakukan <i>cropping.</i></p>
+								</div>
+								<div class="inner columns divided">
+									<div>
+										<h4 style="color:brown">Code Result:</h4>
+										<img src="images_project1\code_result\cropping.png" class="img-responsive" alt="about img">
+									</div>
+									<div class="gallery">
+										<a href="images_project1\code\code_cropping.png" class="image filtered span-2" data-position="bottom"><img src="images_project1\code\click_me.png" alt="" /></a>
+									</div>
 								</div>
 							</section>
 
