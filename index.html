@@ -1,159 +1,303 @@
 <!DOCTYPE HTML>
-<!--
-	Big Picture by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-		<title>Big Picture by HTML5 UP</title>
+		<title>Brain Tumor Detection</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="assets_project1/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets_project1/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
-		<!-- Header -->
-			<header id="header">
-				<h1>Big Picture</h1>
-				<nav>
-					<ul>
-						<li><a href="Chapter 1. Foundations.html">Intro</a></li>
-						<li><a href="birthday_card/index.html">What I Do</a></li>
-						<li><a href="greeting_card2/index.html">Who I Am</a></li>
-						<li><a href="project1.html">My Work</a></li>
-						<li><a href="greeting_card/index.html">Contact</a></li>
-					</ul>
-				</nav>
-			</header>
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
 
-		<!-- Intro -->
-			<section id="intro" class="main style1 dark fullscreen">
-				<div class="content">
-					<header>
-						<h2>Hey.</h2>
-					</header>
-					<p>Welcome to <strong>Big Picture</strong> a responsive site template designed by <a href="https://html5up.net">HTML5 UP</a><br />
-					and released for free under the <a href="https://html5up.net/license">Creative Commons Attribution license</a>.</p>
-					<footer>
-						<a href="#one" class="button style2 down">More</a>
-					</footer>
-				</div>
-			</section>
+				<!-- Wrapper -->
+					<div id="wrapper">
 
-		<!-- One -->
-			<section id="one" class="main style2 right dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>What I Do</h2>
-					</header>
-					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
-				</div>
-				<a href="#two" class="button style2 down anchored">Next</a>
-			</section>
+						<!-- Panel (Banner) -->
+							<section class="panel banner right">
+								<div class="content color0 span-3-75">
+									<h1 class="major">Deteksi<br />
+									Tumor Otak</h1>
+									<p>
+										Pada penelitian ini akan dilakukan <strong>klasifikasi</strong> terhadap citra MRI dengan menggunakan metode yang ada di lingkup <i>image processing</i> dan <i>deep learning</i><br/> 
+										Oleh : {Taufik Fathurahman & Haddad Alwi Yafie}
+									</p>
+									<ul class="actions">
+										<li><a href="#first" class="button primary color1 circle icon solid fa-angle-right">Next</a></li>
+									</ul>
+								</div>
+								<div class="image filtered span-1-75" data-position="25% 25%">
+									<img src="images_project1/pic01.jpeg" alt="" />
+								</div>
+							</section>
 
-		<!-- Two -->
-			<section id="two" class="main style2 left dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>Who I Am</h2>
-					</header>
-					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
-				</div>
-				<a href="#work" class="button style2 down anchored">Next</a>
-			</section>
+						<!-- Panel (Spotlight) -->
+							<section class="panel spotlight medium right" id="first">
+								<div class="content span-7">
+									<h2 class="major">Tumor Otak</h2>
+									<p>Tumor didefinisikan sebagai pertumbuhan jaringan abnormal. Tumor otak adalah massa jaringan abnormal tempat sel tumbuh dan berkembang biak tak terkendali. Tumor otak merupakan penyakit berbahaya kedua yang menyebabkan kematian bagi pria di usia 20-30 tahun dan merupakan penyakit berbahaya yang menyebabkan kematian bagi wanita berusia 20-30 tahun. Salah satu metode umum yang digunakan untuk mendeteksi tumor otak adalah magnetic resonance imaging (MRI).</p>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images_project1/pic02.png" alt="" />
+								</div>
+							</section>
+										
+						<!-- Panel (Spotlight) -->
+							<section class="panel spotlight large left">
+								<div class="content span-5">
+									<h2 class="major">Solusi yang diusulkan</h2>
+									<p>
+										Deteksi tumor otak otomatis diusulkan dengan menggunakan metode convolutional <i>neural network (CNN)</i>. Arsitektur CNN terdiri dari tumpukan layer-layer seperti <i>convolution layer, pooling layer,</i> dan <i>fully connected layer</i>. Sebelum melakukan klasifikasi, terlebih dahulu melakukan tahap <i>preprocessing</i>. Tahap <i>preprocessing</i> dilakukan meningkatkan kualitas citra serta menghilangkan <i><strong>noise</strong></i> yang ada pada citra MRI.</p>
+								</div>
+								<div class="image filtered tinted" data-position="top right">
+									<img src="images_project1/pic03.png" alt="" />
+								</div>
+							</section>
 
-		<!-- Work -->
-			<section id="work" class="main style3 primary">
-				<div class="content">
-					<header>
-						<h2>My Work</h2>
-						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-						Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis
-						arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae.</p>
-					</header>
+						<!-- Panel -->
+							<section class="panel color4-alt">
+								<div class="intro color4">
+									<h2 class="major">Perancangan Sistem</h2>
+									<p>Tahap perancangan sistem akan terdiri dari 3 bagian utama, yaitu membaca citra MRI, <i>pre-processing</i> citra MRI, dan yang terakhir adalah melakukan klasifikasi dari gamabr yang telah di <i>pre-process</i> sebelumnya.</p>
+								</div>
+								<div class="inner columns divided">
+									<img src="images_project1/fd.png" class="img-responsive" alt="about img">
+									<p>
+										<i>Pre-processing</i> akan dilakukan dengan menerapkan <br/>
+										beberapa metode yang ada di lingkup <i>image processing</i>, <br/>
+										yang tujuannya untuk mendapatkan citra yang baik untuk <br/>
+										di klasifikasi di tahapan selanjutnya. <br/>
+										<br/>
+										Dalam melakukan klasifikasi, akan digunakan metode <br/>
+										<i>Convolutional Neural Network (CNN)</i>. Yang nantinya <br/>
+										akan menggunakan 3 buah arsitektur CNN, yaitu <i>MobileNet,<br/>
+										VGG16,</i> dan <i>Resnet50</i> sebagai perbandingan.<br/>
+										<br/>
+										Tahapan terakhir adalah melakukan evaluasi terhadap <br/>
+										sistem yang diabangun, dimana akan digunakan <i>confusion <br/>
+										matrix</i> untuk mengukurnya.
+									</p>
+								</div>
+							</section>
 
-					<!-- Gallery  -->
-						<div class="gallery">
-							<article class="from-left">
-								<a href="images/fulls/01.PNG" class="image fit"><img src="images/thumbs/01.PNG" title="Brain Tumor Detection" alt="" /></a>
-							</article>
-							<article class="from-right">
-								<a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" title="Airchitecture II" alt="" /></a>
-							</article>
-							<article class="from-left">
-								<a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" title="Air Lounge" alt="" /></a>
-							</article>
-							<article class="from-right">
-								<a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" title="Carry on" alt="" /></a>
-							</article>
-							<article class="from-left">
-								<a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" title="The sparkling shell" alt="" /></a>
-							</article>
-							<article class="from-right">
-								<a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" title="Bent IX" alt="" /></a>
-							</article>
-						</div>
+						<!-- Panel -->
+							<section class="panel color2-alt">
+								<div class="intro color2">
+									<h2 class="major">Preprocess - </br>RGB to Grayscale</h2>
+									<p>Citra MRI akan diubah kedalam <i>grayscale</i> dengan dua cara, yang pertama yaitu dengan mengalikan setiap channel warna dengan koefisien yang sudah ditentukan, dan cara kedua adalah dengan merata-ratakan nilainya.</p>
+								</div>
+								<div class="inner columns divided">
+									<div>
+										<h4>Code Result:</h4>
+										<img src="images_project1\code_result\Y108.png" class="img-responsive" alt="about img">
+									</div>
+									<div class="gallery">
+										<a href="images_project1\code\code_rgb_to_grayscale.png" class="image filtered span-2" data-position="bottom"><img src="images_project1\code\click_me.png" alt="" /></a>
+									</div>
+								</div>
+							</section>
 
-				</div>
-			</section>
+						<!-- Panel -->
+							<section class="panel color3-alt">
+								<div class="intro color3">
+									<h2 class="major">Preprocess - </br>Convolution</h2>
+									<p style="color:brown">Akan dilakukan konvolusi dengan kernel yang telah dibuat, salah satunya adalah <i>gaussian blur</i>. Ini bertujuan untuk menghilangkan noise pada citra</p>
+								</div>
+								<div class="inner columns divided">
+									<div>
+										<h4 style="color:brown">Code Result:</h4>
+										<img src="images_project1\code_result\result_conv.png" class="img-responsive" alt="about img">
+									</div>
+									<div class="gallery">
+										<a href="images_project1\code\code_convolution.png" class="image filtered span-2" data-position="bottom"><img src="images_project1\code\click_me.png" alt="" /></a>
+									</div>
+								</div>
+							</section>
 
-		<!-- Contact -->
-			<section id="contact" class="main style3 secondary">
-				<div class="content">
-					<header>
-						<h2>Say Hello.</h2>
-						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.</p>
-					</header>
-					<div class="box">
-						<form method="post" action="#">
-							<div class="fields">
-								<div class="field half"><input type="text" name="name" placeholder="Name" /></div>
-								<div class="field half"><input type="email" name="email" placeholder="Email" /></div>
-								<div class="field"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
-							</div>
-							<ul class="actions special">
-								<li><input type="submit" value="Send Message" /></li>
-							</ul>
-						</form>
+						<!-- Panel -->
+							<section class="panel color4-alt">
+								<div class="intro color4">
+									<h2 class="major">Preprocess - </br>Thresholding</h2>
+									<p>Citra MRI akn diubah kedalam citra <i>binary</i>, dimana jika nilai dibawah <i>Threshold</i> akan bernilai <b>0</b>, dan jika sebaliknya maka <b>1</b></p>
+								</div>
+								<div class="inner columns divided">
+									<div>
+										<h4>Code Result:</h4>
+										<img src="images_project1\code_result\result_th.png" class="img-responsive" alt="about img">
+									</div>
+									<div class="gallery">
+										<a href="images_project1\code\code_thresholding.png" class="image filtered span-2" data-position="bottom"><img src="images_project1\code\click_me.png" alt="" /></a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel color2-alt">
+								<div class="intro color2">
+									<h2 class="major">Preprocess - </br>Erosion</h2>
+									<p>Pada tahap ini dilakukan pengecilan/penipisan gambar pada citra MRI</p>
+								</div>
+								<div class="inner columns divided">
+									<div>
+										<h4>Code Result:</h4>
+										<img src="images_project1\code_result\result_er.png" class="img-responsive" alt="about img">
+									</div>
+									<div class="gallery">
+										<a href="images_project1\code\code_erosion.png" class="image filtered span-2" data-position="bottom"><img src="images_project1\code\click_me.png" alt="" /></a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel color4-alt">
+								<div class="intro color4">
+									<h2 class="major">Preprocess - </br>Dilation</h2>
+									<p>Pada tahap ini dilakukan pembesaran/penebalan gambar pada citra MRI</p>
+								</div>
+								<div class="inner columns divided">
+									<div>
+										<h4>Code Result:</h4>
+										<img src="images_project1\code_result\result_di.png" class="img-responsive" alt="about img">
+									</div>
+									<div class="gallery">
+										<a href="images_project1\code\code_dilation.png" class="image filtered span-2" data-position="bottom"><img src="images_project1\code\click_me.png" alt="" /></a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel color5-alt">
+								<div class="intro color5">
+									<h2 class="major">Preprocess - </br>Find Extreme Points & Cropping</h2>
+									<p style="color:brown">Pada tahapan ini akan dicari kontur dari citra, lalu akan dipilih kontur dengan nilai yang paling besar. Dari nilai kontur terbesar ini akan dapat ditentukan <i>extreme points</i>-nya. Lalu dari <i>extreme points</i> yang telah didapat, akan dilakukan <i>cropping.</i></p>
+								</div>
+								<div class="inner columns divided">
+									<div>
+										<h4 style="color:brown">Code Result:</h4>
+										<img src="images_project1\code_result\cropping.png" class="img-responsive" alt="about img">
+									</div>
+									<div class="gallery">
+										<a href="images_project1\code\code_cropping.png" class="image filtered span-2" data-position="bottom"><img src="images_project1\code\click_me.png" alt="" /></a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel">
+								<div class="intro color2">
+									<h2 class="major">Classification - </br>Create Model</h2>
+									<p>Akan dibuat arsitektur CNN untuk melakukan klasifikasi dengan menerapkan 3 <i>pre-trained model</i>, yang diantaranya adalah <i>MobileNet, VGG16, </i>dan <i>ResNet50</i>.</p>
+								</div>
+								<div class="gallery">
+									<div class="group span-4-5">
+										<a href="images_project1\code\data_augmentation.png" class="image filtered span-3" data-position="bottom"><img src="images_project1/gallery/thumbs/01.png" alt="" /></a>
+										<a href="images_project1\code\check_points.png" class="image filtered span-1-5" data-position="center"><img src="images_project1/gallery/thumbs/02.png" alt="" /></a>
+										<a href="images_project1\code\mobilenet.png" class="image filtered span-1-5" data-position="bottom"><img src="images_project1/gallery/thumbs/03.png" alt="" /></a>
+										<a href="images_project1\code\vgg16.png" class="image filtered span-1-5" data-position="center"><img src="images_project1/gallery/thumbs/04.png" alt="" /></a>
+										<a href="images_project1\code\resnet50.png" class="image filtered span-1-5" data-position="bottom"><img src="images_project1/gallery/thumbs/05.png" alt="" /></a>
+									</div>
+									<a href="images_project1\code_result\brain_tumor_model_1.png" class="image filtered span-2" data-position="right"><img src="images_project1/gallery/thumbs/06.png" alt="" /></a>
+									<div class="group span-3">
+										<a href="images_project1\code_result\brain_tumor_model_2.png" class="image filtered span-3" data-position="top"><img src="images_project1/gallery/thumbs/07.png" alt="" /></a>
+										<a href="images_project1\code_result\brain_tumor_model_3.png" class="image filtered span-3" data-position="top"><img src="images_project1/gallery/thumbs/08.png" alt="" /></a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel color6-alt">
+								<div class="intro color6">
+									<h2 class="major">Evaluate - </br>Model 1</h2>
+									<p style="color:brown">Akan dilakukan evaluasi terhadap model yang telah dibuat, untuk mengukur seberapa baik model yang telah dibuat.</p>
+								</div>
+								<div class="inner columns divided">
+									<div>
+										<h4 style="color:brown">Confusion Matrix:</h4>
+										<img src="images_project1\code_result\eval1.png" class="img-responsive" alt="about img">
+									</div>
+									<div>
+										<h4 style="color:brown">Confusion Matrix:</h4>
+										<img src="images_project1\code_result\report1.png" class="img-responsive" alt="about img">
+									</div>
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel color3-alt">
+								<div class="intro color3">
+									<h2 class="major">Evaluate - </br>Model 2</h2>
+									<p style="color:brown">Akan dilakukan evaluasi terhadap model yang telah dibuat, untuk mengukur seberapa baik model yang telah dibuat.</p>
+								</div>
+								<div class="inner columns divided">
+									<div>
+										<h4 style="color:brown">Confusion Matrix:</h4>
+										<img src="images_project1\code_result\eval2.png" class="img-responsive" alt="about img">
+									</div>
+									<div>
+										<h4 style="color:brown">Confusion Matrix:</h4>
+										<img src="images_project1\code_result\report2.png" class="img-responsive" alt="about img">
+									</div>
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel color4-alt">
+								<div class="intro color4">
+									<h2 class="major">Evaluate - </br>Model 3</h2>
+									<p>Akan dilakukan evaluasi terhadap model yang telah dibuat, untuk mengukur seberapa baik model yang telah dibuat.</p>
+								</div>
+								<div class="inner columns divided">
+									<div>
+										<h4>Confusion Matrix:</h4>
+										<img src="images_project1\code_result\eval3.png" class="img-responsive" alt="about img">
+									</div>
+									<div>
+										<h4>Confusion Matrix:</h4>
+										<img src="images_project1\code_result\report3.png" class="img-responsive" alt="about img">
+									</div>
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel color4-alt">
+								<div class="intro color4">
+									<h2 class="major">Watch our Video :)</h2>
+								</div>
+								<div class="inner columns divided">
+									<div class="span-3.5">
+										<iframe width="560" height="315" src="https://www.youtube.com/embed/qt3HDQL612s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									</div>
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel color4-alt">
+								<div class="intro color4">
+									<h2 class="major">Get Complete Source Code Here :)</h2>
+								</div>
+								<div class="inner columns divided">
+									<div class="span-3.5">
+										<a href="https://github.com/taufikfathurahman/tubes_pengolahan_citra_digital.git">
+											<pre><code>https://github.com/taufikfathurahman/tubes_pengolahan_citra_digital.git</code></pre>
+										</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Copyright -->
+							<div class="copyright">&copy; Brain Tumor Detection. Design: <a href="https://html5up.net">HTML5 UP & Edited by @taufikfathurahman</a>.</div>
+
 					</div>
-				</div>
-			</section>
 
-		<!-- Footer -->
-			<footer id="footer">
-
-				<!-- Icons -->
-					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
-					</ul>
-
-				<!-- Menu -->
-					<ul class="menu">
-						<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-					</ul>
-
-			</footer>
+			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="assets_project1/js/jquery.min.js"></script>
+			<script src="assets_project1/js/browser.min.js"></script>
+			<script src="assets_project1/js/breakpoints.min.js"></script>
+			<script src="assets_project1/js/main.js"></script>
 
 	</body>
 </html>
